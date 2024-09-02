@@ -1,0 +1,1 @@
+import { navigate } from "gatsby";

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "gatsby/v5/removal-useNavigate-hook",
+  "description": "This codemod updates your codebase by replacing the deprecated useNavigate hook from @gatsbyjs/reach-router with the navigate function from gatsby. This change is necessary for compatibility with React 18 and ensures that your application leverages the latest advancements in Gatsby.",
+  "version": "1.0.0",
+  "engine": "jscodeshift",
+  "private": false,
+  "applicability": {
+    "from": [["gatsby", "<=", "4"]],
+    "to": [["gatsby", ">=", "5"]]
+  },
+  "arguments": [],
+  "meta": {
+    "tags": ["gatsby", "migration", "codemod"],
+    "git": "https://github.com/codemod-com/codemod/tree/main/packages/codemods/gatsby/v5/removal-useNavigate-hook"
+  }
+}
